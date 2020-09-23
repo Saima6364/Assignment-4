@@ -1,0 +1,530 @@
+/*Google Fonts Integrate*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Global css*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Quicksand', sans-serif;
+}
+a, span, p, input{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Header part css*/
+
+.header{
+
+	background: white;
+	padding: 20px;
+}
+.header img{
+	vertical-align: middle;
+}
+.header span{
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+	margin: 0px 10px;
+	
+}
+.col-6{
+	width: 50%;
+	float: left;
+	padding-bottom: 20px;
+}
+.col-1{
+	width: 15%;
+	float: left;
+}
+.col-11{
+	width: 85%;
+	float: left;
+}
+
+.banner-left{
+	padding: 30px;
+}
+.banner .left h1{
+	font-size:  43px;
+	margin-bottom: 18px;
+	font-weight: 900;
+}
+.banner .left p{
+	font-size: 19px;
+    line-height: 29px;
+    margin-bottom: 21px;
+    color: #4c527d;
+}
+.banner button{
+	padding: 18px 42px;
+    border-radius: 32px;
+    border: none;
+    font-weight: 600;
+    border: 2px solid #e55713;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+.banner .left-button{
+	background: #e55713;
+	font-size: 16px;
+	color: white;
+}
+.banner .right-button{
+	background: white;
+	font-size: 16px;
+	color:  #e55713;
+}
+.testimonial{
+	width: 100%;
+	margin-top: 30px;
+
+}
+.message{
+	height: 124px;
+	width: 98%;
+	background-color: #f6f8fc;
+	border-left: 4px solid #f5a782;
+	position: relative;
+	
+}
+.message p{
+	font-size: 16px !important;
+	line-height: 24px !important;
+	padding: 25px ;
+	font-style: italic;
+}
+.corner-box{
+	height: 20px;
+	width: 20px;
+	background: #f6f8fc;
+	position: absolute;
+	bottom: -9px;
+	left: 5%;
+	transform: rotate(45deg);
+}
+.user{
+	width: 100%;
+	height: 70px;
+	margin-top: 20px;
+}
+.user img{
+	width: 60px;
+
+}
+.user-info{
+	margin: 15px 0px !important;
+
+}
+.user-info p{
+	margin: 0 !important;
+    padding: 0 !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    color: #6f75a7 !important;
+    font-size: 14px !important;
+}
+.see-all{
+	width: 80%;
+	text-align: center !important;
+}
+.see-all a{
+	color: black;
+}
+.see-all a:hover{
+	color: #ed6524;
+
+}
+.right-img{
+	position: relative;
+}
+.banner .circle{
+	height: 126px;
+    width: 126px;
+    background: #5cb377;
+    border-radius: 50%;
+    line-height: 34px;
+    text-align: center !important;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+   right: 103px;
+    top: -28px;
+}
+.banner .circle h3{
+	margin-top: 24px;
+	font-weight: bold !important;
+}
+
+
+
+/*Service section css here*/
+
+.service .container{
+	padding-top: 10%;
+}
+.service{
+	width: 100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom,#f6f8fc 0%,#fff 70%);
+
+}
+
+.service-body{
+	width: 100%;
+	float: left;
+	padding: 100px 0;
+
+}
+.col{
+	width: 33.33%;
+	float: left;
+	
+}
+.service-title{
+	margin: 30px 0;
+	text-align: center;
+}
+.service-title h1{
+	font-size: 40px;
+	color: #1c1e2e;
+	margin: 10px 0;
+	
+}
+.service-title p{
+	line-height: 28px;
+    font-size: 20px;
+    color: #4c527d;
+}
+.item{
+	text-align: center;
+	padding: 20px;
+}
+.item h3{
+	margin: 15px 0;
+}
+
+.item p{
+	color: #4c527d;
+	line-height: 24px;
+}
+
+
+/*Item section css code here*/
+
+.Item-section{
+	width: 100%;
+	display: flow-root;
+	padding: 100px 0;
+}
+.item-title{
+	text-align: center;
+
+}
+.item-title h1{
+	font-size: 42px;
+}
+.item-body{
+	width: 100%;
+	float: left;
+}
+.col-5{
+	width: 50%;
+	float: left;
+	margin: 35px 0;
+}
+.item-img{
+	padding: 30px;
+    text-align: right;
+}
+.item-text{
+	padding: 50px;
+
+}
+.item-text ul li{
+	list-style: none;
+	color:  #4c527d;
+	margin-bottom: 18px;
+	font-size: 22px;
+}
+.item-text ul li i{
+	color: #7FCDB8;
+	margin-right: 15px;
+}
+.item-text button{
+	background: #ed6524;
+	font-size: 18px;
+	color: white;
+	padding: 15px 30px;
+    border-radius: 32px;
+    border: none;
+    font-weight: 600;
+    border: 2px solid #e55713;
+    margin: 15px 44px;
+}
+
+
+/*Review section css code here*/
+
+.review{
+	width: 100%;
+	display: flow-root;
+}
+
+.review-body{
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+}
+.review-title{
+	margin: 30px 0;
+	text-align: center;
+}
+.review-title h1{
+	font-size: 42px;
+	color: #1c1e2e;
+	margin: 24px 0;
+}
+.review-title p{
+   line-height: 28px;
+    font-size: 20px;
+    color: #4c527d;
+}
+.review-text ul li{
+    list-style: none;
+    color: #4c527d;
+    padding-left: 32%;
+    margin: 16px;
+	font-size: 18px;
+}
+.review-text ul li i{
+	color:  #7FCDB8;
+    margin-left: -34px;
+	
+}
+.review-text ul li p{
+	font-size: 16px;
+    
+}
+.review-text ul li h4{
+	color: #1c1e2e;
+	font-size: 20px;
+	margin-top: -37px;
+	padding: 10px;
+}
+
+
+/*Subscribe section css here*/
+
+.Subscribe{
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+}
+.Subscribe-box{
+	background-color: #f6f4fc;
+	width: 45%;
+	margin: 0 auto;
+	padding: 70px 90px;
+	text-align: center;
+}
+.Subscribe-box p{
+	color:  #4c527d;
+	margin: 20px 0;
+}
+.email-input{
+	width: 60%;
+    padding: 15px;
+    border: none;
+	border-radius: 3px;
+}
+.email-input:focus{
+	outline-color: #e55713;
+}
+.send-button{
+	padding: 15px 20px;
+	font-weight: 600;
+	background-color: #e55713;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+
+
+/*Book reviews section css here*/
+
+.book-review{
+	width: 100%;
+	display: flow-root;
+}
+.book-title{
+	margin: 50px 0;
+	text-align: center;
+}
+.book-title h1{
+	font-size: 40px;
+	padding: 10px;
+
+}
+.book-title p{
+	font-size: 20px;
+	color: #4c527d;
+}
+.reviews-01{
+	width: 100%;
+	float: left;
+}
+.review-box{
+	padding: 15px;
+	background-color: #f6f4fc;
+	position: relative;
+	margin: 0 15px;
+}
+.review-text{
+	margin: 10px;
+	color:  #4c527d;
+}
+.user-info-2{
+	margin: 15px 20px;
+    color: #4c527d;
+    font-size: 14px;
+}
+.testimonial-icon{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #f5a782;
+	position: absolute;
+	left: 42%;
+	top: -11%;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+
+}
+.review-02{
+	width: 100%;
+	float: left;
+	margin: 50px 0;
+}
+.space{
+	margin: 0 200px;
+}
+.review-button button{
+	background: #ed6524;
+	font-size: 18px;
+	color: white;
+	padding: 15px 30px;
+    border-radius: 32px;
+    border: none;
+    font-weight: 600;
+    border: 2px solid #e55713;
+    margin: 15px 33%;
+
+}
+
+/*User profile css section here*/
+
+.user-section{
+	padding: 100px 0;
+	background: #ed6524;
+	
+
+}
+.user-info img{
+	
+	margin-bottom: 30px;
+}
+.img-info{
+	text-align: center;
+}
+
+.text-info{
+	text-align: left;
+	margin: 10px 15%;
+}
+.user-info{
+	margin: 20px 200px;
+
+}
+.user-section h1{
+	font-size: 44px;
+	color: white;
+	margin: 20px;
+
+}
+.user-section .text-info p{
+	color: #fff !important;
+	margin: 20px 0% !important;
+	font-size: 16px !important;
+
+
+}
+.user-section .text-info p a{
+	color: white;
+}
+.icon-item{
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.icon ul li a i{
+	margin: 20px 5px;
+    font-size: 16px;
+    height: 36px;
+    width: 36px;
+    background: #0000001A;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+}
+.icon ul li a i:hover{
+	background: #0000002A;
+
+}
+
+
+/*Footer section css here*/
+
+
+.footer-section{
+	width: 100%;
+	height: auto;
+	padding: 52px;
+}
+.footer-text{
+	text-align: center;
+	padding-right: 82px;
+}
+.footer-text i{
+	color: #ed6524;
+}
+.footer-text a{
+	color: black;
+}
+.footer-text a:hover{
+	color: #ed6524;
+
+}
